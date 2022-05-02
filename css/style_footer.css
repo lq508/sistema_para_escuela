@@ -1,0 +1,64 @@
+footer {
+	display: block;
+    position: relative;
+    z-index: 10;
+    line-height: 14px;
+    padding-bottom: 40px;
+    color: white;
+		background-color: #196d80;
+
+    text-align: center;
+    border-top: 1px solid #cacbce;
+
+}
+
+.socials  {
+    padding-top: 38px;
+    font-size: 0;
+    line-height: 0;
+    padding-bottom: 17px;
+}
+
+.socials a {
+    display: inline-block;
+    width: 41px;
+    height: 41px;
+    position: relative;
+    background-color: #92ce0a;
+    background: url(../images/socials.png) 0 0 no-repeat;
+}
+
+.socials a:hover {
+    opacity: 0.5;
+}
+
+.socials a+a {
+    margin-left: 4px;
+    background-position: -45px 0;
+}
+
+.socials a+a+a {
+    background-position: right 0;
+}
+
+
+#toTop {
+    background: url("../images/totop.png") no-repeat scroll left 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    bottom: 70px;
+    display: none;
+    height: 41px;
+    width: 41px;
+    left: 58%;
+    margin-left: 500px;
+    overflow: hidden;
+    position: fixed;
+    text-decoration: none;
+    text-indent: -999px;
+    transition: all 0s ease 0s;
+    z-index: 20;
+}
+#toTop:hover {
+    background-position: right 0;
+    outline: medium none;
+}
